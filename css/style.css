@@ -55,7 +55,7 @@
   
   .cta {
     padding: 9px 25px;
-    background-color: #06c74d;
+    background-color: #0c0;
     border: none;
     border-radius: 50px;
     cursor: pointer;
@@ -120,11 +120,15 @@
   display: inline-block;
   margin-top: 20px;
   padding: 8px 20px;
-  background: #017143;
+  background: #10ad6c;
   color: #fff;
   border-radius: 40px;
   font-weight: 500; Letter-spacing: 1px;
   text-decoration: none;
+}
+
+.main_right a:hover {
+  background-color: #0da264;
 }
 
 .content{
@@ -209,6 +213,74 @@
   margin-left: -300px;
   width: 800px;
 }
+
+
+/* Service Html */
+.sec2service {
+  position: relative; 
+  width: 100%;
+  min-height: 70vh;
+  padding-left: 100px;
+  padding-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #3e51bc;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.flex-container .card{
+  margin-right: 20px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  padding: 20px;
+}
+
+.card img {
+  margin-top: 10px;
+  width: 70px;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  margin-top: 20px;
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card p {
+  margin-top:20px;
+  line-height: 1.5em;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
+
 
 
 /* Untuk Css Footer */
