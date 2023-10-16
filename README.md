@@ -1,13 +1,12 @@
 # Company Profile Website - UPAY
-
-Welcome to the UPAY Company Profile Website, your gateway to understanding the world of UPAY, a cutting-edge digital financial solution for Universitas Pancasila.
+Konten: Kami akan menciptakan sebuah website Company profile dari project aplikasi UPAY(financial digital untuk Universitas Pancasila) kami. Tujuan dari website kami adalah untuk mempermudah User dalam mengenal aplikasi kami. 
 
 # My Team
-Hamzah Zulkan Mulia - 4522210052 
-Muhammad Sulthan Zharfan - 
-Dimas Satrio Parikesit - 4522210002
-Michael Danu Ekklasiya - 4522210056
-Jimly Asidiq Anwar
+Hamzah Zulkan Mulia - 4522210052 <br> 
+Muhammad Sulthan Zharfan - 4522210016 <br> 
+Dimas Satrio Parikesit - 4522210002 <br> 
+Michael Danu Ekklasiya - 4522210056 <br> 
+Jimly Asidiq Anwar - <br> 
 
 ## Table of Contents
 
@@ -37,36 +36,35 @@ The website features a user-friendly navigation bar with the following elements:
 
 ## Home
 
-The Home section is designed to provide a compelling introduction to UPAY and its features. It consists of three sections:
+Bagian Beranda dirancang untuk memberikan pengenalan yang menarik tentang UPAY dan fitur-fiturnya. Ini terdiri dari tiga bagian:
 
 ### Section 1 - Introduction
-- A brief explanation of UPAY along with an image of the UPAY logo or informative content about the product.
+- Terdapat sedikit penjelasan tentang upay di sertai sebuah gambar UPAY, atau konten informs mengenai produk
 
 ### Section 2 - Product Concept
-- A captivating description of UPAY's core concept using persuasive copywriting.
+- Terdapat gambaran konsep sebuah produk dari Upay dimana menggunakan copywiriting yang memikat 
 
 ### Section 3 - Call to Action (CTA)
-- A strong Call to Action (CTA) encouraging users to explore UPAY's benefits.
+- Terdapat Call To Action ( CTA ) dan manfaat sebuah produk UPAY
 
 ### Footer
-- Copyright notice.
-- Social proof elements to connect the website with our social media channels for more comprehensive information.
+- Terdapat Copywriting dan beberapa Selipan konten social proof untuk menghubungkan sebuah website ke Social media admin untuk menemukan informasi yang lebih lengkp
 
 ---
 
 ## About
 
-The About section aims to provide insights into UPAY. It includes a header, section, and footer:
+Bagian Tentang bertujuan untuk memberikan wawasan tentang UPAY. Ini mencakup header, bagian, dan footer:
 
 ### Header - About UPAY
-- A prominent header indicating the About section.
+- Header menonjol yang menunjukkan bagian Tentang.
 
 ### Section
-- Information about UPAY.
-- The UPAY payment process.
-- Visual aids explaining UPAY.
-- Usage instructions.
-- Download instructions.
+- Informasi tentang UPAY.
+- Proses pembayaran UPAY.
+- Alat bantu visual menjelaskan UPAY.
+- Petunjuk penggunaan.
+- Unduh instruksi.
 
 ### Footer
 - Copyright notice.
@@ -75,14 +73,14 @@ The About section aims to provide insights into UPAY. It includes a header, sect
 
 ## Gallery
 
-In the Gallery section, users can explore UPAY's features through visual content. It comprises a header, section, and footer:
+Pada bagian Galeri, pengguna dapat menjelajahi fitur-fitur UPAY melalui konten visual. Ini terdiri dari header, bagian, dan footer:
 
 ### Header
-- Showcasing the UPAY logo.
-- Navigation menu to Home, About, Gallery, Service, and Contact.
+- Menampilkan logo UPAY.
+- Menu navigasi ke Beranda, Tentang, Galeri, Layanan, dan Kontak.
 
 ### Section
-- Images and brief descriptions of UPAY's key features.
+- Gambar dan deskripsi singkat tentang fitur utama UPAY.
 
 ### Footer
 - Copyright notice.
@@ -91,14 +89,14 @@ In the Gallery section, users can explore UPAY's features through visual content
 
 ## Service
 
-The Service section showcases UPAY's services, offering a header, section, and footer:
+Bagian Layanan menampilkan layanan UPAY, menawarkan header, bagian, dan footer:
 
 ### Header
-- Displaying the UPAY logo.
-- Navigation menu to Home, About, Gallery, Service, and Contact.
+- Menampilkan logo UPAY.
+- Menu navigasi ke Beranda, Tentang, Galeri, Layanan, dan Kontak.
 
 ### Section
-- Illustrative images and concise descriptions of the services provided by the UPAY application.
+- Gambar ilustrasi dan deskripsi singkat tentang layanan yang disediakan oleh aplikasi UPAY.
 
 ### Footer
 - Copyright notice.
@@ -107,18 +105,18 @@ The Service section showcases UPAY's services, offering a header, section, and f
 
 ## Contact
 
-The Contact section provides various contact options and features a header, section, and footer:
+Bagian Kontak menyediakan berbagai opsi kontak dan fitur header, bagian, dan footer:
 
 ### Header
-- Displaying the UPAY logo.
-- Navigation menu to Home, About, Gallery, Service, and Contact.
+- Menampilkan logo UPAY.
+- Menu navigasi ke Beranda, Tentang, Galeri, Layanan, dan Kontak.
 
 ### Section
-- Multiple contact options for users to get in touch.
+- Beberapa opsi kontak bagi pengguna untuk menghubungi.
 
 ### Footer
 - Copyright notice.
 
 ---
 
-This README.md outlines the structure and content of the UPAY Company Profile Website. Please follow the navigation links to explore each section and discover more about our exciting digital financial solution.
+README.md ini menguraikan struktur dan isi Website Profil Perusahaan UPAY. Silakan ikuti tautan navigasi untuk menjelajahi setiap bagian dan menemukan lebih banyak tentang solusi keuangan digital kami yang menarik.
