@@ -6,10 +6,15 @@
     padding: 0;
     bottom :0;
 }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
 
 /* Untuk Css Header Menu Bar */
   header {
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -65,32 +70,50 @@
     background-color: #04ac04;
   }
   
-
-
-
 /* Untuk Css Main Content */
-.sec1 {
-  position: relative; width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffffff;
+
+.Pembuka img {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.sec2 {
-  position: relative; 
+.Text-Awal{
+  padding: 40px;
+  text-align: left;
+}
+
+<<<<<<< HEAD
+.Text-Awal p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Gambar-Akhir img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+footer {
+  position: relative;
+  height: 70px;
+  left: 0;
+  bottom: 0;
   width: 100%;
-  min-height: 50vh;
-  padding-left: 100px;
-  padding-right: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #3e51bc;
-}
-
+  background-color: #1a6fee;
+  color: white;
+  padding: 25px;
+  text-align: center;
+=======
 .main_left {
   float: left;
 }
@@ -344,33 +367,94 @@ footer {
     color: white;
     padding: 25px;
     text-align: center;
+>>>>>>> 17efeb3141027708988614da17d860b9015c5144
 }
 
 .contentct {
-  margin: 20px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 20px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form label, form textarea, form input {
-  display: block;
-  margin-bottom: 10px;
+display: block;
+margin-bottom: 10px;
 }
 
 form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
 }
 
 form button {
-  background-color: #7289da;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+background-color: #7289da;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Untuk layar dengan lebar kurang dari 768px */
+@media (max-width: 767px) {
+  header {
+    padding: 10px 5%; 
+  }
+  
+  .Pembuka img {
+    margin-bottom: 20px; 
+  }
+  
+  .Text-Awal {
+    padding: 20px;
+  }
+  
+  .Text-Awal p {
+    font-size: 16px; 
+    margin-bottom: 15px;
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  footer {
+    padding: 10px 0;
+  }
+}
+
+/* Untuk layar dengan lebar kurang dari atau sama dengan 768px */
+@media (max-width: 550px) {
+  header {
+    padding: 30px 10%; 
+  }
+  .cta{
+    display: none;
+  }
+  .Pembuka img {
+    margin-bottom: 50px; 
+  }
+  
+  .Text-Awal {
+    padding: 40px;
+  }
+  
+  .Text-Awal p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 50px; 
+    margin-bottom: 40px; 
+  }
+  
+  footer {
+    padding: 25px;
+  }
 }
