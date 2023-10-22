@@ -1,0 +1,274 @@
+header {
+    background-color: rgb(0, 83, 190);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Menambahkan padding di sekeliling elemen header */
+}
+
+.header .logo {
+    text-decoration: none; /* Menghapus garis bawah default pada tautan */
+}
+
+.header .logo img {
+    height: 80px;
+}
+
+.header .nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Mengatur daftar tautan agar tetap menyamping */
+}
+
+.nav__links li {
+    margin-right: 20px; /* Jarak antara tautan navigasi */
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    font-size: 14px; /* Ubah ukuran font tautan navigasi */
+    font-family: 'Montserrat', sans-serif; /* Ubah jenis font */
+}
+
+.cta {
+    background-color: rgb(255, 192, 0);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cta:hover {
+    background-color: rgb(23, 111, 230);
+}
+
+
+.sec1{
+    background-color: rgb(23,111,230);
+}
+
+.sec1 .textBox {
+    flex: 1;
+    padding: 80px; /* Menambahkan padding di sebelah kanan dan kiri teks */
+    text-align: left; /* Menjaga teks agar tetap rata kiri */
+}
+
+.sec1 .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec1 .textBox a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(255,192,0); /* Warna latar belakang tombol */
+    color: white; /* Warna teks tombol */
+    text-decoration: none; /* Menghapus garis bawah default pada tautan */
+    border-radius: 15px; /* Membuat sudut tombol melengkung */
+    margin-top: 20px; /* Jarak atas tombol dari teks */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Bayangan tombol */
+}
+
+.sec1 .textBox a:hover {
+    background-color: rgb(23,111,230); /* Warna latar belakang tombol saat dihover */
+}
+
+
+.sec1 .textBox h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600; /* Ini adalah gaya semi-bold */
+    font-size: 60px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.sec1 .textBox p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: white;
+}
+
+
+.sec1 .imgBox {
+    flex: 1;
+}
+
+/* CSS untuk .sec2service */
+.sec2service {
+    background-color: #F5F5F5;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between; /* Memaksimalkan ruang horizontal */
+    flex-wrap: wrap; /* Mengizinkan pembrambat (wrapping) item jika tidak cukup lebar */
+}
+
+.row {
+    flex: 1; /* Membagi ruang setiap baris (row) */
+    max-width: 48%; /* Maksimum lebar setiap kartu */
+    margin: 10px;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    flex: 1; /* Membagi ruang setiap card dalam satu baris */
+    height: 400px; /* Tinggi kartu */
+    margin-bottom: 10px;
+}
+
+
+.card h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600px;
+    font-size: 24px;
+    color: #0074D9;
+}
+
+.card img {
+    max-width: 40%; /* Maksimum lebar gambar ikon */
+    height: auto; /* Biarkan tinggi otomatis sesuai rasio */
+    margin: auto; /* Pusatkan gambar horizontalmente */
+    margin-bottom: 10px; /* Jarak antara gambar dan teks */
+}
+
+.card p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    background-color: #0074D9;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* CSS untuk .sec3 */
+.sec3 {
+    background-color: #0074D9; /* Warna latar belakang */
+    color: #FFFFFF; /* Warna teks */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_left {
+    flex: 1;
+}
+
+.main_left h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.main_left p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.main_right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Tampilan mobile */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px; /* Mengurangi padding pada header untuk perangkat mobile */
+        flex-direction: column; /* Atur tata letak elemen header ke tumpukan vertikal */
+        text-align: center; /* Pusatkan teks pada header */
+    }
+
+    .header .logo {
+        margin-bottom: 20px; /* Jarak antara logo dan daftar tautan */
+    }
+
+    .header .nav {
+        justify-content: center; /* Pusatkan daftar tautan pada perangkat mobile */
+    }
+
+    .nav__links {
+        display: flex;
+        flex-direction: column; /* Mengatur daftar tautan vertikal (menumpuk) */
+        align-items: center; /* Pusatkan daftar tautan */
+    }
+
+    .nav__links li {
+        margin-bottom: 10px; /* Jarak vertikal antara tautan navigasi */
+    }
+
+    .cta {
+        margin-top: 20px; /* Jarak atas tombol dari daftar tautan */
+    }
+
+    .sec1 .textBox {
+        padding: 20px; /* Kurangi padding pada teks untuk perangkat mobile */
+        text-align: center; /* Pusatkan teks */
+    }
+    
+    .sec1 .content {
+        flex-direction: column; /* Atur tata letak konten ke tumpukan vertikal */
+        text-align: center; /* Pusatkan teks */
+    }
+
+    .sec1 .textBox a {
+        padding: 10px 15px; /* Sesuaikan ukuran tombol */
+    }
+
+    .sec1 .textBox h1 {
+        font-size: 36px; /* Kurangi ukuran font untuk h1 */
+    }
+
+    .sec1 .textBox p {
+        font-size: 14px; /* Kurangi ukuran font untuk p */
+    }
+
+    .sec1 .imgBox {
+        display: none; /* Sembunyikan gambar pada perangkat mobile */
+    }
+
+    .card {
+        padding: 10px; /* Kurangi padding pada kartu untuk perangkat mobile */
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .card h1 {
+        font-size: 20px; /* Kurangi ukuran font judul */
+    }
+
+    .card img {
+        max-width: 80%; /* Sesuaikan ukuran gambar ikon */
+    }
+
+    .card p {
+        font-size: 14px; /* Kurangi ukuran font paragraf */
+    }
+    
+    button {
+        padding: 8px 16px; /* Sesuaikan ukuran tombol */
+    }
+}
