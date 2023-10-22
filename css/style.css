@@ -378,15 +378,18 @@ footer {
     text-align: center;
 }
 
-.contentct {
+/* Bagian Contact */
+.IsiContact {
   margin: 20px;
   background-color: #fff;
   padding: 20px;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.252);
+  font-family: Arial, Helvetica, sans-serif ;
 }
-
+  
 form label, form textarea, form input {
+  margin-top: 10px;
   display: block;
   margin-bottom: 10px;
 }
@@ -399,12 +402,70 @@ form input, form textarea {
 }
 
 form button {
-  background-color: #7289da;
+  background-color: #0982FE;
   color: #fff;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  width: 100%;
+}
+
+.PETA{
+  display: flex;
+  flex: 1;
+  height: 480px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Kontak{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: TOP;
+}
+
+.Phone{
+  margin-right: 15px;
+}
+
+.Upload{
+  display: none;
+}
+
+.uploadFile{
+  margin-top: 15px;
+  border-radius: 6px;
+  border: 1px dashed gray;
+  width: 100%;
+  height: 100px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: TOP;
+}
+
+.uploadFile:hover{
+  color: red;
+  border: 1px dashed red;
+}
+
+@media (max-width: 480px){
+  .IsiContact{
+    font-size: large;
+  }
+  .PETA{
+    display: none;
+  }
+}
+
+@media (max-width: 767px){
+  .IsiContact{
+    font-size: small;
+  }
+  .PETA{
+    display: none;
+  }
 }
 
 /* Untuk layar dengan lebar kurang dari 768px */
