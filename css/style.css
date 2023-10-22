@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    height: 100px;
     background-color: #1a6fee;
   }
   
@@ -22,10 +23,7 @@
   }
 
   .logo img{
-    width: 200px;
-    position: absolute;
-    margin-top: -100px;
-    margin-left: -60px;
+    width: 150px;
   }
   
   .nav__links a,
@@ -91,6 +89,38 @@
   justify-content: space-between;
   align-items: center;
   background: #3e51bc;
+}
+
+/* Untuk Css Main Content */
+
+.Pembuka img {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.Text-Awal{
+  padding: 40px;
+  text-align: left;
+}
+
+.Text-Awal p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.Gambar-Akhir img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
 .main_left {
@@ -217,76 +247,127 @@
 
 
 /* Service Html */
-.sec2service {
-  position: relative; 
-  width: 100%;
-  min-height: 70vh;
-  padding-left: 100px;
-  padding-right: 150px;
+.sec1ser{
+  margin-top: 100px;
+  background-color: rgb(23,111,230);
+}
+
+.sec1ser .textBox {
+  margin-top: 80px;
+  margin-left: 70px;
+  flex: 1;
+  padding: 80px; /* Menambahkan padding di sebelah kanan dan kiri teks */
+  text-align: left; /* Menjaga teks agar tetap rata kiri */
+}
+
+.sec1ser .content {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #3e51bc;
 }
 
-.flex-container {
+.sec1ser .textBox a {
+  display: inline-block;
+  font-family: sans-serif;
+  padding: 10px 20px;
+  background-color: #10ad6c; /* Warna latar belakang tombol */
+  color: white; /* Warna teks tombol */
+  text-decoration: none; /* Menghapus garis bawah default pada tautan */
+  border-radius: 15px; /* Membuat sudut tombol melengkung */
+  margin-top: 20px; /* Jarak atas tombol dari teks */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Bayangan tombol */
+}
+
+.sec1ser .textBox a:hover {
+  background-color: #09a062; /* Warna latar belakang tombol saat dihover */
+}
+
+
+.sec1ser .textBox h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; /* Ini adalah gaya semi-bold */
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.sec1ser .textBox p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  color: white;
+}
+
+
+.sec1ser .imgBox {
+  margin-top: 100px;
+  flex: 1;
+}
+
+.sec2service {
+  background-color: #F5F5F5;
+  padding: 20px;
+  text-align: center;
   display: flex;
-  justify-content: center;
-  width: 100%;
+  justify-content: space-between; /* Memaksimalkan ruang horizontal */
+  flex-wrap: wrap; /* Mengizinkan pembrambat (wrapping) item jika tidak cukup lebar */
 }
 
-.flex-container .card{
-  margin-right: 20px;
+.row {
+  flex: 1; /* Membagi ruang setiap baris (row) */
+  max-width: 48%; /* Maksimum lebar setiap kartu */
+  margin: 10px;
 }
-
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: white;
-  max-width: 300px;
-  margin: auto;
+  margin-bottom: 40px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
   text-align: center;
-  font-family: arial;
-  padding: 20px;
+  flex: 1; /* Membagi ruang setiap card dalam satu baris */
+  height: 430px; /* Tinggi kartu */
+  width: 700px;
+}
+
+
+.card h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600px;
+  font-size: 24px;
+  color: #0074D9;
 }
 
 .card img {
-  margin-top: 10px;
-  width: 70px;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  margin-top: 20px;
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-  font-size: 18px;
+  max-width: 40%; /* Maksimum lebar gambar ikon */
+  height: auto; /* Biarkan tinggi otomatis sesuai rasio */
+  margin: auto; /* Pusatkan gambar horizontalmente */
+  margin-bottom: 10px; /* Jarak antara gambar dan teks */
 }
 
 .card p {
-  margin-top:20px;
-  line-height: 1.5em;
+  margin-left: 190px;
+  width: 300px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
 }
 
-.card button:hover {
-  opacity: 0.7;
+button {
+  margin-top: 20px;
+  background-color: #0074D9;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
 }
+
 
 
 
 /* Untuk Css Footer */
 footer {
-    position: relative;
+    position: fixed;
     height: 70px;
     left: 0;
     bottom: 0;
@@ -385,4 +466,64 @@ form button {
   .PETA{
     display: none;
   }
+}
+
+/* Untuk layar dengan lebar kurang dari 768px */
+@media (max-width: 767px) {
+  header {
+    padding: 10px 5%; 
+  }
+  
+  .Pembuka img {
+    margin-bottom: 20px; 
+  }
+  
+  .Text-Awal {
+    padding: 20px;
+  }
+  
+  .Text-Awal p {
+    font-size: 16px; 
+    margin-bottom: 15px;
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  footer {
+    padding: 10px 0;
+  }
+
+  /* Untuk layar dengan lebar kurang dari atau sama dengan 768px */
+@media (max-width: 550px) {
+  header {
+    padding: 30px 10%; 
+  }
+  .cta{
+    display: none;
+  }
+  .Pembuka img {
+    margin-bottom: 50px; 
+  }
+  
+  .Text-Awal {
+    padding: 40px;
+  }
+  
+  .Text-Awal p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 50px; 
+    margin-bottom: 40px; 
+  }
+  
+  footer {
+    padding: 25px;
+  }
+}
 }
