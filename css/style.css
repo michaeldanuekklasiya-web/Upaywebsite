@@ -6,10 +6,15 @@
     padding: 0;
     bottom :0;
 }
-  
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  text-align: center;
+}
 
 /* Untuk Css Header Menu Bar */
   header {
+    margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,261 +72,135 @@
     background-color: #04ac04;
   }
   
-
-
-
 /* Untuk Css Main Content */
-.sec1 {
-  position: relative; width: 100%;
-  min-height: 100vh;
-  padding: 100px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffffff;
+
+.Pembuka img {
+
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 50px;
 }
 
-.sec2 {
-  position: relative; 
-  width: 100%;
-  min-height: 50vh;
-  padding-left: 100px;
-  padding-right: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #3e51bc;
+.Text-Awal{
+  padding: 40px;
+  text-align: left;
 }
 
-.main_left {
-  float: left;
-}
-
-.main_left img{
-  width: 600px;
-}
-
-.main_right {
-  float: right;
-  width: 500px;
-}
-
-.main_right h1 {
-  color: white;
-}
-
-.main_right p {
-  padding-top: 10px;
-  color: white;
-  line-height: 1.7em;
-  text-align: justify;
-}
-
-.main_right a{
-  display: inline-block;
-  margin-top: 20px;
-  padding: 8px 20px;
-  background: #10ad6c;
-  color: #fff;
-  border-radius: 40px;
-  font-weight: 500; Letter-spacing: 1px;
-  text-decoration: none;
-}
-
-.main_right a:hover {
-  background-color: #0da264;
-}
-
-.content{
-  margin-top: -100px;
-  position: relative;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}         
-
-.content .textBox{
-  position: relative;
-  max-width: 600px;
-}
-
-.content .textBox h1 {
-  color: #333;
-  font-size: 4em;
-  Line-height: 1.4em;
-  font-weight: 500;
-}
-
-.content .textBox p{
-  margin-top: 10px;
-  color: #333;
-  Line-height: 1.8em;
-  text-align: justify;
-}
-
-.content .textBox a{
-  display: inline-block;
-  margin-top: 20px;
-  padding: 8px 20px;
-  background: #017143;
-  color: #fff;
-  border-radius: 40px;
-  font-weight: 500; Letter-spacing: 1px;
-  text-decoration: none;
-}
-
-.content .textBox a:hover{
-  color: white;
-  background: #01502f;
-}
-
-.imgBox img{
-  width: 800px;
-}
-
-/* SEC 3 */
-.sec3 {
-  position: relative; 
-  width: 100%;
-  min-height: 80vh;
-  padding: 0px;
-  justify-content: space-between;
-  align-items: center;
-  background: #ffffff;
-}
-
-.sec3 h1{
-  padding-top: 50px;
-}
-
-.sec3 .main_left {
-  margin-top: 40px;
-  margin-left: 100px;
-  width: 500px;
-  padding-top: 10px;
-  color: rgb(0, 0, 0);
-  line-height: 1.7em;
-  text-align: justify;
-}
-
-.sec3 .main_left p {
-  margin-top: 10px;
-}
-
-.main_right img{
-  box-sizing: border-box;
-  margin-left: -300px;
-  width: 800px;
-}
-
-
-/* Service Html */
-.sec2service {
-  position: relative; 
-  width: 100%;
-  min-height: 70vh;
-  padding-left: 100px;
-  padding-right: 150px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #3e51bc;
-}
-
-.flex-container {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
-.flex-container .card{
-  margin-right: 20px;
-}
-
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  background-color: white;
-  max-width: 300px;
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  padding: 20px;
-}
-
-.card img {
-  margin-top: 10px;
-  width: 70px;
-}
-
-.price {
-  color: grey;
-  font-size: 22px;
-}
-
-.card button {
-  margin-top: 20px;
-  border: none;
-  outline: 0;
-  padding: 12px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
+.Text-Awal p {
   font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-.card p {
-  margin-top:20px;
-  line-height: 1.5em;
+.Gambar-Akhir img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
 }
 
-.card button:hover {
-  opacity: 0.7;
-}
-
-
-
-/* Untuk Css Footer */
 footer {
-    position: relative;
-    height: 70px;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: #1a6fee;
-    color: white;
-    padding: 25px;
-    text-align: center;
+  position: relative;
+  height: 70px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1a6fee;
+  color: white;
+  padding: 25px;
+  text-align: center;
 }
 
 .contentct {
-  margin: 20px;
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 20px;
+background-color: #fff;
+padding: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form label, form textarea, form input {
-  display: block;
-  margin-bottom: 10px;
+display: block;
+margin-bottom: 10px;
 }
 
 form input, form textarea {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+width: 100%;
+padding: 10px;
+border: 1px solid #ccc;
+border-radius: 5px;
 }
 
 form button {
-  background-color: #7289da;
-  color: #fff;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+background-color: #7289da;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+/* Untuk layar dengan lebar kurang dari 768px */
+@media (max-width: 767px) {
+  header {
+    padding: 10px 5%; 
+  }
+  
+  .Pembuka img {
+    margin-bottom: 20px; 
+  }
+  
+  .Text-Awal {
+    padding: 20px;
+  }
+  
+  .Text-Awal p {
+    font-size: 16px; 
+    margin-bottom: 15px;
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+  }
+  
+  footer {
+    padding: 10px 0;
+  }
+}
+
+/* Untuk layar dengan lebar kurang dari atau sama dengan 768px */
+@media (max-width: 550px) {
+  header {
+    padding: 30px 10%; 
+  }
+  .cta{
+    display: none;
+  }
+  .Pembuka img {
+    margin-bottom: 50px; 
+  }
+  
+  .Text-Awal {
+    padding: 40px;
+  }
+  
+  .Text-Awal p {
+    font-size: 18px; 
+    margin-bottom: 20px; 
+  }
+
+  .Gambar-Akhir img {
+    margin-top: 50px; 
+    margin-bottom: 40px; 
+  }
+  
+  footer {
+    padding: 25px;
+  }
 }
