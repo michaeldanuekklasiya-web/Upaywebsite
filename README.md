@@ -11,6 +11,9 @@ Jimly Asidiq Anwar - 4522210018 <br>
 # My Design Figma
 [Klik Untuk Melihat Design Figma ( Hanya dapat View )](https://www.figma.com/file/yBJwSosNSfi5r4U5TnMAwr/SIM-(-Finance%2C-E-Wallet%2C-%26-Online-Payment-App-)?type=design&node-id=301%3A4618&mode=design&t=7lBFyV9tIISMb8jV-1)
 
+# Link Video Youtube Presentasi
+[Klik Untuk Melihat Hasil Presentasi Kami](https://youtu.be/j0Te4N3BMeQ)
+
 <h1>Latar Belakang</h1>
 <p>  Permasalahan yang dihadapi oleh pemilik usaha dan mahasiswa dalam
 pembayaran di lingkungan Universitas Pancasila ini adalah karena masih
