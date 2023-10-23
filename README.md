@@ -99,7 +99,9 @@ The website features a user-friendly navigation bar with the following elements:
   - Contact
 
 ## Home
-
+Mengenalkan Brand Upay : Halaman beranda harus memberikan informasi singkat tentang brand
+Panggilan Aksi Utama (Call to Action - CTA)
+Menampilkan Produk atau Layanan Unggulan
 Bagian Beranda dirancang untuk memberikan pengenalan yang menarik tentang UPAY dan fitur-fiturnya. Ini terdiri dari tiga bagian:
 
 ### Section 1 - Introduction
@@ -117,7 +119,7 @@ Bagian Beranda dirancang untuk memberikan pengenalan yang menarik tentang UPAY d
 ---
 
 ## About
-
+Halaman 'About' di website UP adalah bagian di mana kita sebagai pemilik atau pembuat website menjelaskan informasi tentang UPAY . Halaman ini berisi informasi yaitu visi, misi, dan tujuan kami, Halaman 'About' memberikan pemahaman kepada pengunjung website tentang apa itu UPAY dan bagaimana product kami nanti akan berguna untuk kedepannya
 Bagian Tentang bertujuan untuk memberikan wawasan tentang UPAY. Ini mencakup header, bagian, dan footer:
 
 ### Header - About UPAY
@@ -136,7 +138,7 @@ Bagian Tentang bertujuan untuk memberikan wawasan tentang UPAY. Ini mencakup hea
 ---
 
 ## Gallery
-
+Halaman gallery adalah bagian dari website UPAY untuk digunakan agar para user website UPAY mengetahui informasi terupdate tentang pemakaian website upay dan fitur-fitur pembayaran, transaksi, history transaksi, topup,dan menyimpan uang yang ada di dalam website UPAY.
 Pada bagian Galeri, pengguna dapat menjelajahi fitur-fitur UPAY melalui konten visual. Ini terdiri dari header, bagian, dan footer:
 
 ### Header
@@ -152,7 +154,11 @@ Pada bagian Galeri, pengguna dapat menjelajahi fitur-fitur UPAY melalui konten v
 ---
 
 ## Service
-
+Halaman service pengguna dapat menemukan informasi terperinci tentang berbagai layanan yang ditawarkan oleh aplikasi Upay pada halaman yang diberikan, yang disebut service.html. Ini adalah langkah penting untuk membantu pengguna memahami fitur-fitur penting yang ditawarkan aplikasi Upay dan dapat menggunakannya dengan baik, antara lain :
+1. Split Bill: Fitur untuk membagi tagihan atau biaya dengan pengguna lain, memudahkan pengaturan pembayaran bersama.
+2. QR Code: Memungkinkan pengguna untuk melakukan pembayaran dengan memindai kode QR yang terintegrasi dalam aplikasi, memberikan kemudahan dan kecepatan dalam bertransaksi.
+3. Limit Saldo: Setiap akun pengguna memiliki batasan penggunaan saldo untuk menghindari pengeluaran yang berlebihan.
+3. History: Pengguna dapat melihat riwayat pemakaian uang mereka, membantu mereka melacak transaksi dan mengelola keuangan dengan lebih baik.
 Bagian Layanan menampilkan layanan UPAY, menawarkan header, bagian, dan footer:
 
 ### Header
@@ -168,7 +174,7 @@ Bagian Layanan menampilkan layanan UPAY, menawarkan header, bagian, dan footer:
 ---
 
 ## Contact
-
+Halaman kontak digunakan para user untuk melaporkan suatu masalah yang sedang dihadapinya. Jadi user akan memberikan laporan yang berisikan nama, Gmail, No. HP sang user. Selanjutnya mengupload file(barang bukti), dan pesan yang ingin user sampaikan kepada kami. Di halaman kontak pun kami memberikan lokasi dimana kantor UPAY berada menggunakan Google map yang tercantum dibagian bawah tengah halaman kontak.
 Bagian Kontak menyediakan berbagai opsi kontak dan fitur header, bagian, dan footer:
 
 ### Header
