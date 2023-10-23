@@ -51,6 +51,8 @@ form.example input[type=text] {
   }
   
   .nav__links li {
+    
+  cursor: pointer;
     padding: 0px 20px;
   }
   
@@ -59,8 +61,9 @@ form.example input[type=text] {
   }
   
   .nav__links li a:hover {
-    color: rgb(4, 54, 135);
+    color: rgb(184, 184, 184);
   }
+
   
   .cta {
     padding: 9px 25px;
@@ -87,6 +90,8 @@ form.example input[type=text] {
   align-items: center;
   background: #ffffff;
 }
+
+
 
 /* SECTION 2 */
 .sec2 {
@@ -281,6 +286,33 @@ form.example input[type=text] {
   width: 550px;
 }
 
+.imgBoxser img{
+  width: 700px;
+}
+
+.imgBox2 img{
+  width: 770px;
+  position: static;
+}
+
+/* Gallery */
+.columngal {
+  float: left;
+  width: 25%;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.rowgal:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columngal img {
+  width: 360px;
+}
+
 /* SEC 3 HOME */
 .sec3hm {
   background-color: #0074D9;
@@ -379,67 +411,35 @@ form.example input[type=text] {
 
 
 .sec4{
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
+  position: relative; 
+  width: 100%;
+  min-height: 107vh;
+  padding: 0px;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
 }
 
 /* Service Html */
+
 .sec1ser{
-  margin-top: 100px;
-  background-color: rgb(23,111,230);
-}
-
-.sec1ser .textBox {
-  margin-top: 80px;
-  margin-left: 70px;
-  flex: 1;
-  padding: 80px; /* Menambahkan padding di sebelah kanan dan kiri teks */
-  text-align: left; /* Menjaga teks agar tetap rata kiri */
-}
-
-.sec1ser .content {
+  position: relative; width: 100%;
+  min-height: 100vh;
+  padding: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #0074D9;
 }
 
-.sec1ser .textBox a {
-  display: inline-block;
-  font-family: sans-serif;
-  padding: 10px 20px;
-  background-color: #10ad6c; /* Warna latar belakang tombol */
-  color: white; /* Warna teks tombol */
-  text-decoration: none; /* Menghapus garis bawah default pada tautan */
-  border-radius: 15px; /* Membuat sudut tombol melengkung */
-  margin-top: 20px; /* Jarak atas tombol dari teks */
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Bayangan tombol */
-}
-
-.sec1ser .textBox a:hover {
-  background-color: #09a062; /* Warna latar belakang tombol saat dihover */
-}
-
-
-.sec1ser .textBox h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600; /* Ini adalah gaya semi-bold */
-  font-size: 60px;
-  margin-bottom: 10px;
+.sec1ser .textBox h1{
   color: white;
 }
 
 .sec1ser .textBox p {
-  font-family: 'Roboto', sans-serif;
-  font-size: 10px;
   color: white;
 }
 
-
-.sec1ser .imgBox {
-  margin-top: 100px;
-  flex: 1;
-}
 
 .sec2service {
   background-color: #F5F5F5;
@@ -526,6 +526,11 @@ footer {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.252);
   font-family: Arial, Helvetica, sans-serif ;
 }
+
+.IsiContact p {
+  margin-top: 14px;
+  margin-bottom: 20px;
+}
   
 form label, form textarea, form input {
   margin-top: 10px;
@@ -558,6 +563,10 @@ form button {
   align-items: center;
 }
 
+.MAP {
+  width: 100%;
+}
+
 .Kontak{
   display: flex;
   flex: 1;
@@ -582,6 +591,8 @@ form button {
   cursor: pointer;
   justify-content: center;
   align-items: TOP;
+  text-align: center;
+  padding-top: 40px;
 }
 
 .uploadFile:hover{
