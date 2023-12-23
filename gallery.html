@@ -4,38 +4,65 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
+  <link rel="icon" type="image/x-icon" href="/img/upay.png">
   <title>Upay</title>
+
+  <!-- Memanggil Bootstrap, Boxicons dan Style css kita -->
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="/styles/style.css">
+
 </head>
 <body>
-   <!-- NAVBAR MENU -->
-   <header>
-    <a class="logo" href="/"><img src="/img/upay2.png" alt="logo"></a>
-    <nav>
-        <ul class="nav__links">
-            <li>
-                <a href="index.html">Home</a>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#">
+        <div class="upay">
+            <span>U</span>PAY
+        </div>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="mx-auto"> <!-- Center the navigation items -->
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
             </li>
-            <li>
-                <a href="about.html">About</a>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
             </li>
-            <li>
-                <a href="gallery.html">Gallery</a>
+            <li class="nav-item">
+              <a class="nav-link active" href="gallery.html">Gallery</a>
             </li>
-            <li>
-                <a href="service.html">Service</a>
+            <li class="nav-item">
+              <a class="nav-link" href="service.html">Service</a>
             </li>
-            <li>
-                <a href="contact.html">Contact</a>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
-        </ul>
-    </nav>
-    <form class="example" action="#">
-        <input type="text" placeholder="Search.." name="search">
-    </form>
-    <a class="cta" href="#">Download</a>
-</header>
+          </ul>
+        </div>
+  
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        </form>
+  
+         <!-- Download link within the collapsible menu -->
+            <a class="cta d-lg-none btn btn-success" href="#">Download</a>
+        </div>
 
-<section class="sec1">
+        <!-- Download link outside the collapsible menu for larger screens -->
+        <a class="cta d-none d-lg-block btn btn-success" href="#">Download</a>
+        </div>
+    </div>
+  </nav>
+
+<section class="sec1gal">
     <div class="content">
         <div class="textBox">
             <h1>Transaksi Jauh Terasa lebih  mudah bersama Upay </h1>
@@ -48,22 +75,83 @@
     </div>
 </section>
 
-<!-- Main Content Gallery -->
-<section class="sec4">
-<div class="rowgal">
-    <div class="columngal">
-        <img src="/img/iPhone 14 - 7.png" alt="mock1">
+ <!-- Portfolio -->
+ <section class="portfolio-section" id="portfolio">
+    <div class="container mb-4">
+        <div class="swiper portfolio-swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/iPhone 12 Pro.png" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">Design Cover Book</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/iPhone 13.png" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">Design Menu</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/mock1.jpg" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">Branding UMKM Waroenk</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/mock2 - Copy.jpg" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">Design T-Shirt</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/iPhone 14 - 7.png" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">Branding UMKM Shoes</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="card2">
+                        <div class="card2-body">
+                            <img src="/img/mock2.jpg" alt="" class="card2-img-top rounded mb-3">
+                            <h6 class="fw-semibold">E-learning Online Course App</h6>
+                            <a href="portfolio.html" class="text-orange">Detail Portfolio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex align-items-center justify-content-end gap-3 mt-3">
+                <button class="btn btn-light d-flex align-items-center justify-content-center btn-prev">
+                    <i class="bx bx-left-arrow-alt fs-5"></i>
+                </button>
+                <button class="btn btn-light d-flex align-items-center justify-content-center btn-next">
+                    <i class="bx bx-right-arrow-alt fs-5"></i>
+                </button>
+            </div>
+            
+        </div>
     </div>
-    <div class="columngal">
-        <img src="/img/iPhone 14 - 2.png" alt="mock2">
-    </div>
-    <div class="columngal">
-        <img src="/img/iPhone 14 - 3.png" alt="mock3">
-    </div>
-    <div class="columngal">
-      <img src="/img/iPhone 14 - 4.png" alt="mock4">
-    </div>
-  </div>
 </section>
 
 
@@ -102,3 +190,33 @@
 </footer>
 </body>
 </html>
+
+<script src="vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".portfolio-swiper", {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          navigation: {
+            nextEl: ".btn-next",
+            prevEl: ".btn-prev",
+          },
+          breakpoints: {
+            // when window width is >= 320px
+            320: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            },
+            // when window width is >= 480px
+            480: {
+              slidesPerView: 3,
+              spaceBetween: 30
+            },
+            // when window width is >= 640px
+            640: {
+              slidesPerView: 4,
+              spaceBetween: 40
+            }
+          }
+        });
+      </script>

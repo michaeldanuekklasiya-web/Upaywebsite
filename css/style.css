@@ -28,13 +28,6 @@ form.example input[type=text] {
     background-color: #1a6fee;
   }
   
-  .logo {
-    cursor: pointer;
-  }
-
-  .logo img{
-    width: 150px;
-  }
   
   .nav__links a,
   .cta,
@@ -48,6 +41,7 @@ form.example input[type=text] {
   .nav__links {
     list-style: none;
     display: flex;
+    margin-bottom: -2px;
   }
   
   .nav__links li {
@@ -64,17 +58,29 @@ form.example input[type=text] {
     color: rgb(184, 184, 184);
   }
 
+  .upay{
+    font-size: 40px;
+  }
+
+  .upay span {
+    color: orange;
+  }
   
   .cta {
-    padding: 9px 25px;
+    padding-top: 7px;
+    padding-left: 22px;
+    width: 130px;
+    height: 39px;
     background-color: #33d273;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
   }
   
   .cta:hover {
     background-color: #04ac04;
+    color: white;
   }
   
 
@@ -91,6 +97,16 @@ form.example input[type=text] {
   background: #ffffff;
 }
 
+.sec1gal {
+  margin-bottom: -100px;
+  position: relative; width: 100%;
+  min-height: 100vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+}
 
 
 /* SECTION 2 */
@@ -450,22 +466,11 @@ form.example input[type=text] {
   flex-wrap: wrap; /* Mengizinkan pembrambat (wrapping) item jika tidak cukup lebar */
 }
 
-.row {
-  flex: 1; /* Membagi ruang setiap baris (row) */
-  max-width: 48%; /* Maksimum lebar setiap kartu */
-  margin: 10px;
-}
 
 .card {
-  margin-bottom: 40px;
   background-color: #FFFFFF;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding-top: 30px;
-  text-align: center;
-  flex: 1; /* Membagi ruang setiap card dalam satu baris */
-  height: 430px; /* Tinggi kartu */
-  width: 700px;
 }
 
 
@@ -484,8 +489,6 @@ form.example input[type=text] {
 }
 
 .card p {
-  margin-left: 190px;
-  width: 300px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
 }
@@ -498,6 +501,11 @@ button {
   padding: 10px 20px;
   border-radius: 5px;
   cursor: pointer;
+}
+
+.button2 {
+  width: 200px;
+  height: 100px;
 }
 
 
@@ -654,11 +662,27 @@ form button {
   margin-top: 15px;
 }
 
+.column2bt a:hover {
+  color: thistle;
+}
+
 .column2bt img{
   margin-top: 10px;
   margin-right: 20px;
 }
 
+/* PORTFOLIO */
+.portfolio-section .card2 .card2-img-top{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px){
+  .portfolio-section .card2 .card2-img-top {
+      max-height: 100px;
+  }
+}
 
 /* Clear floats after the columns */
 .row2bt:after {
