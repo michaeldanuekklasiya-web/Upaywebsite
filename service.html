@@ -6,35 +6,62 @@
         <link rel="icon" type="image/x-icon" href="/img/upay.png">
         <link rel="stylesheet" href="/css/style.css">
         <title>Upay</title>
+
+        <!-- Memanggil Bootstrap, Boxicons dan Style css kita -->
+        <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="vendors/boxicons/css/boxicons.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="/styles/style.css">
+        
     </head>
     <body>
-        <!-- NAVBAR MENU -->
-        <header>
-            <a class="logo" href="/"><img src="/img/upay2.png" alt="logo"></a>
-            <nav>
-                <ul class="nav__links">
-                    <li>
-                        <a href="index.html">Home</a>
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <div class="container">
+              <a class="navbar-brand fw-bold" href="#">
+                <div class="upay">
+                    <span>U</span>PAY
+                </div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="mx-auto"> <!-- Center the navigation items -->
+                  <ul class="navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
-                    <li>
-                        <a href="about.html">About</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
                     </li>
-                    <li>
-                        <a href="gallery.html">Gallery</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
-                    <li>
-                        <a href="service.html">Service</a>
+                    <li class="nav-item">
+                      <a class="nav-link active" href="service.html">Service</a>
                     </li>
-                    <li>
-                        <a href="contact.html">Contact</a>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contact.html">Contact</a>
                     </li>
-                </ul>
-            </nav>
-            <form class="example" action="#">
-                <input type="text" placeholder="Search.." name="search">
-            </form>
-            <a class="cta" href="#">Download</a>
-        </header>
+                  </ul>
+                </div>
+          
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form>
+          
+                 <!-- Download link within the collapsible menu -->
+                    <a class="cta d-lg-none btn btn-success" href="#">Download</a>
+                </div>
+
+                <!-- Download link outside the collapsible menu for larger screens -->
+                <a class="cta d-none d-lg-block btn btn-success" href="#">Download</a>
+                </div>
+            </div>
+          </nav>
+
         <section class="sec1ser">
             <div class="content">
                 <div class="textBox">
@@ -51,51 +78,47 @@
         </section>
 
         
-        <section class="sec2service">
-            <div class="row">
-                <div class="card">
-                    <!-- <img src="/img/wallet.png" alt="iconfeature" style="width:20px"> -->
-                    <h1>SPLIT BILL</h1>
-                    <img src="/img/solar_bill-check-broken.png" alt="splitblill">
-                    <p>Yang nantinya setiap akun di masing
-                        masing device pengguna akan terkoneksi
-                        dengan akun pengguna lainnya</p>
-                        <p><button>Learn More</button></p>
+        <div class="row mt-4">
+            <div class="col-sm-6 mb-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Split Bill</h5>
+                  <p class="card-text">Yang nantinya setiap akun di masing masing device pengguna akan terkoneksi dengan akun pengguna lainnya.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
- 
-                <div class="card">
-                    <!-- <img src="/img/wallet.png" alt="iconfeature" style="width:20px"> -->
-                    <h1>QR CODE</h1>
-                    <img src="/img/solar_qr-code-bold.png" alt="Qr code">
-                    <p>Pengguna dalam membayar melalui scan
-                        code barcode yang telah terintergrasi
-                        dengan aplikasi UPAY</p>
-                        <p><button>Learn More</button></p>
-                </div>
+              </div>
             </div>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Qr Code</h5>
+                  <p class="card-text">Pengguna dalam membayar melalui scan code barcode yang telah terintergrasi dengan aplikasi UPAY.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
-            <div class="row">
-                <div class="card">
-                    <!-- <img src="/img/wallet.png" alt="iconfeature" style="width:20px"> -->
-                    <h1>LIMIT SALDO</h1>
-                    <img src="/img/solar_danger-circle-bold.png" alt="limit">
-                    <p>Setiap Akun pengguna akan memiliki batas
-                        penggunaan Saldo yang memiliki
-                        keuntungan meminimalisir sang pengguna
-                        boros dalam menggunakan saldonya</p>
-                        <p><button>Learn More</button></p>
+          <div class="row mb-4">
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Limit Saldo</h5>
+                  <p class="card-text">Setiap Akun pengguna akan memiliki batas penggunaan Saldo yang memiliki keuntungan meminimalisir sang pengguna boros dalam menggunakan saldonya.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
                 </div>
-                <div class="card">
-                    <!-- <img src="/img/wallet.png" alt="iconfeature" style="width:20px"> -->
-                    <h1>HISTORY</h1>
-                    <img src="/img/iconamoon_history-bold.png" alt="history">
-                    <p>Pengguna dapat melihat data pemakaian
-                        uang nya selama sehari ( Rekapitulasi
-                        Pemakaian Tabungan )</p>
-                    <p><button>Learn More</button></p>
-                </div>
+              </div>
             </div>
-        </section>
+            <div class="col-sm-6">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">History</h5>
+                  <p class="card-text">Pengguna dapat melihat data pemakaian uang nya selama sehari ( Rekapitulasi Pemakaian Tabungan ).</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
 
         <div class="foot">
             <div class="row2bt">
