@@ -190,6 +190,9 @@ Bagian Kontak menyediakan berbagai opsi kontak dan fitur header, bagian, dan foo
 ### Footer
 - Copyright notice.
 
+### DESIGN WEB TREE UPAY
+![UPAY](https://github.com/michaeldanuekklasiya-web/Upaywebsite/assets/88574532/123554aa-f98e-4aa2-baa4-50eed0551f5b)
+
 ---
 
 README.md ini menguraikan struktur dan isi Website Profil Perusahaan UPAY. Silakan ikuti tautan navigasi untuk menjelajahi setiap bagian dan menemukan lebih banyak tentang solusi keuangan digital kami yang menarik.
